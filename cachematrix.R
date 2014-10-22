@@ -1,5 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The two functions here create a cacheMatrix object by taking advantage of lexical scoping
+# to minimise unnecessary computation. In this case, by caching the inverse of the supplied matrix.
 
 ## makeCacheMatrix initialises a cacheMatrix object from the passed matrix x, 
 # setting x in its environment. Four functions are returned, enabling setting and
